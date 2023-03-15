@@ -7,14 +7,10 @@ GEM
       multipart-post (>= 1.2, < 3)
     jwt (2.2.1)
     multipart-post (2.1.1)
-    mustermann (1.1.1)
-      ruby2_keywords (~> 0.0.1)
     nio4r (2.5.4)
     puma (4.3.5)
       nio4r (~> 2.0)
-    rack (2.2.3)
-    rack-protection (2.0.8.1)
-      rack
+    rack (3.0.6.1)
     rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -29,14 +25,9 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
-      tilt (~> 2.0)
+    sinatra (1.0)
+      rack (>= 1.0)
     sshkey (2.0.0)
-    tilt (2.0.10)
 
 PLATFORMS
   ruby
@@ -46,7 +37,7 @@ DEPENDENCIES
   faraday
   jwt
   puma
-  rack
+  rack (>= 2.2.6.4)
   rake
   rspec
   sinatra
@@ -56,4 +47,4 @@ RUBY VERSION
    ruby 2.6.3p62
 
 BUNDLED WITH
-   2.1.4
+   1.17.3
