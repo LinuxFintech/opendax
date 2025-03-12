@@ -11,7 +11,7 @@ gem 'sshkey' # SSH key generation gem
 
 # webhook server deps
 gem 'bump'
-gem 'rack'
+gem 'rack', '>= 2.2.12'
 gem 'sinatra'
 gem 'puma'
 gem 'rspec'
